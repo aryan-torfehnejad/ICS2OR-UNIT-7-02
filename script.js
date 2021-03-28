@@ -1,6 +1,6 @@
-document.getElementById('button').addEventListener('click',  comparison)
+document.getElementById('button').addEventListener('click',comparison)
 let userInput = 0
-function comparison (){
+function comparison ( ){
   document.getElementById('input').value
   userInput = parseInt(userInput)
   if (userInput < 0) {
